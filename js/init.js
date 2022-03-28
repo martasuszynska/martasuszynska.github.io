@@ -19,7 +19,7 @@ jQuery(document).ready(function(){
 	tokyo_tm_my_progress();
 	tokyo_tm_mycounter();
 	tokyo_tm_projects();
-	tokyo_tm_portfolio();
+	tokyo_tm_projects();
 	tokyo_tm_cursor();
 	tokyo_tm_imgtosvg();
 	tokyo_tm_popup();
@@ -130,7 +130,7 @@ function tokyo_tm_modalbox_news(){
 	"use strict";
 	
 	var modalBox	= jQuery('.tokyo_tm_modalbox');
-	var list 		= jQuery('.tokyo_tm_news ul li');
+	var list 		= jQuery('.tokyo_tm_offer ul li');
 	var closePopup	= modalBox.find('.close');
 	
 	list.each(function(){
@@ -194,7 +194,7 @@ function tokyo_tm_modalbox_portfolio(){
 	"use strict";
 	
 	var modalBox	= jQuery('.tokyo_tm_modalbox');
-	var button		= jQuery('.tokyo_tm_portfolio .popup_info');
+	var button		= jQuery('.tokyo_tm_projects .popup_info');
 	
 	button.on('click',function(){
 		var element 	= jQuery(this);
@@ -206,7 +206,7 @@ function tokyo_tm_modalbox_portfolio(){
 		modalBox.addClass('opened');
 		modalBox.find('.description_wrap').html(details);
 		modalBox.find('.top_image').html(parent.find('.popup_info').html());
-		modalBox.find('.portfolio_main_title').html('<h3>'+title+'</h3>'+'<span>'+category+'</span>');
+		modalBox.find('.project_main_title').html('<h3>'+title+'</h3>'+'<span>'+category+'</span>');
 		tokyo_tm_popup();
 	});
 }
@@ -219,36 +219,36 @@ function tokyo_tm_projects() {
 	
 	"use strict";
 	
-	jQuery('.tokyo_tm_portfolio_animation_wrap').each(function() {
+	jQuery('.tokyo_tm_projects_animation_wrap').each(function() {
 		jQuery(this).on('mouseenter', function() {
 			if (jQuery(this).data('title')) {
-				jQuery('.tokyo_tm_portfolio_titles').html(jQuery(this).data('title') + '<span class="work__cat">' + jQuery(this).data('category') + '</span>');
-				jQuery('.tokyo_tm_portfolio_titles').addClass('visible');
+				jQuery('.tokyo_tm_projects_titles').html(jQuery(this).data('title') + '<span class="work__cat">' + jQuery(this).data('category') + '</span>');
+				jQuery('.tokyo_tm_projects_titles').addClass('visible');
 			}
 
 			jQuery(document).on('mousemove', function(e) {
-				jQuery('.tokyo_tm_portfolio_titles').css({
+				jQuery('.tokyo_tm_projects_titles').css({
 					left: e.clientX - 10,
 					top: e.clientY + 25
 				});
 			});
 		}).on('mouseleave', function() {
-			jQuery('.tokyo_tm_portfolio_titles').removeClass('visible');
+			jQuery('.tokyo_tm_projects_titles').removeClass('visible');
 		});
 	});
 }
 
 // filterable 
 
-function tokyo_tm_portfolio(){
+function tokyo_tm_projects(){
 
 	"use strict";
 
 	if(jQuery().isotope) {
 
 		// Needed variables
-		var list 		 = jQuery('.tokyo_tm_portfolio .portfolio_list');
-		var filter		 = jQuery('.tokyo_tm_portfolio .portfolio_filter ul');
+		var list 		 = jQuery('.tokyo_tm_projects .projects_list');
+		var filter		 = jQuery('.tokyo_tm_projects .projects_filter ul');
 
 		if(filter.length){
 			// Isotope Filter 

@@ -165,22 +165,22 @@ body.dark .tokyo_tm_title span{
 	background-color: rgba(255,255,255,.04);
 	color: #777;
 }
-body.dark .tokyo_tm_portfolio .portfolio_filter ul li a{
+body.dark .tokyo_tm_projects .projects_filter ul li a{
 	color: #bbb;
 }
-body.dark .tokyo_tm_portfolio .portfolio_filter ul li a:hover{
+body.dark .tokyo_tm_projects .projects_filter ul li a:hover{
 	color: #fff;
 }
-body.dark .tokyo_tm_news ul li .details .title a{
+body.dark .tokyo_tm_offer ul li .details .title a{
 	color: #fff;
 }
-body.dark .tokyo_tm_news ul li .details .date{
+body.dark .tokyo_tm_offer ul li .details .date{
 	color: #bbb;
 }
-body.dark .tokyo_tm_news ul li .details .date a{
+body.dark .tokyo_tm_offer ul li .details .date a{
 	color: #bbb;
 }
-body.dark .tokyo_tm_news ul li .details .date a:hover{
+body.dark .tokyo_tm_offer ul li .details .date a:hover{
 	color: #fff;
 }
 body.dark .tokyo_tm_modalbox_news .details .title{
@@ -207,10 +207,10 @@ body.dark .tokyo_tm_contact .fields .last textarea:focus{
 	border: 1px solid rgba(255,255,255,1);
 	color: #fff;
 }
-body.dark .tokyo_tm_news ul li .details{
+body.dark .tokyo_tm_offer ul li .details{
 	background-color: #494b50;
 }
-body.dark .tokyo_tm_news ul li .extra:before{
+body.dark .tokyo_tm_offer ul li .extra:before{
 	background-color: rgba(255,255,255,.1);
 }
 body.dark .tokyo_tm_read_more a{
@@ -222,7 +222,7 @@ body.dark .tokyo_tm_read_more a span{
 body.dark .tokyo_tm_read_more a:before{
 	background-color: #fff;
 }
-body.dark .tokyo_tm_news ul li .list_inner{
+body.dark .tokyo_tm_offer ul li .list_inner{
 	box-shadow: none;
 }
 body.dark .tokyo_tm_modalbox_about .box_inner{
