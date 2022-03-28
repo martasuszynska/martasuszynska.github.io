@@ -29,7 +29,7 @@ jQuery(document).ready(function(){
 	tokyo_tm_location();
 	
 	jQuery(window).load('body', function(){
-		tokyo_tm_my_load();
+		//tokyo_tm_my_load();
 	});
 	
 });
