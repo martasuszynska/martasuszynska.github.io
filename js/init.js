@@ -212,7 +212,7 @@ function tokyo_tm_modalbox_portfolio(){
 }
 
 // -------------------------------------------------
-// -----------------    PORTFOLIO    ---------------
+// -----------------    PROJECTS    ---------------
 // -------------------------------------------------
 
 function tokyo_tm_projects() {
@@ -566,23 +566,4 @@ function tokyo_tm_owl_carousel(){
 		}
 	});
 	tokyo_tm_imgtosvg();
-}
-
-// -------------------------------------------------
-// -----------------  LOCATION  --------------------
-// -------------------------------------------------
-
-function tokyo_tm_location(){
-	
-	"use strict";
-	
-	var button		= jQuery('.href_location');
-	button.on('click',function(){
-		var element		= jQuery(this);
-		var address		= element.text();
-		address			= address.replace(/\ /g,'+');
-		var text		= 'https://maps.google.com?q=';
-		window.open(text+address);
-		return false;
-	});
 }

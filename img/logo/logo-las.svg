@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 4000 6000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#1F1B20;stroke-width:111.2}
+    .str1 {stroke:#1F1B20;stroke-width:111.2;stroke-linecap:round;stroke-linejoin:round}
+    .str2 {stroke:black;stroke-width:111.2;stroke-linecap:round;stroke-linejoin:round}
+    .str3 {stroke:black;stroke-width:74.13;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:370.650000 370.650000}
+    .fil1 {fill:none;fill-rule:nonzero}
+    .fil2 {fill:#FEFEFE}
+    .fil0 {fill:#2B423A;fill-opacity:0.858824}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2315663466144">
+   <polygon class="fil0" points="2003,5941 3947,5941 2043,119 2003,119 "/>
+   <polyline class="fil1 str0" points="2003,124 2003,5932 3947,5932 "/>
+   <path class="fil1 str1" d="M60 3990c0,1073 870,1943 1944,1943 1073,0 1943,-870 1943,-1943"/>
+   <polygon class="fil2" points="3950,5811 3905,5811 3947,5942 3950,5942 "/>
+   <path class="fil1 str2" d="M3947 2045c0,-1073 -870,-1943 -1943,-1943 -1074,0 -1944,870 -1944,1943"/>
+   <line class="fil1 str1" x1="59" y1="2046" x2="3947" y2= "3990" />
+   <line class="fil1 str3" x1="33" y1="5951" x2="1985" y2= "97" />
+  </g>
+ </g>
+</svg>
