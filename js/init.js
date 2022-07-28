@@ -26,7 +26,6 @@ jQuery(document).ready(function(){
 	tokyo_tm_data_images();
 	tokyo_tm_contact_form();
 	tokyo_tm_owl_carousel();
-	tokyo_tm_location();
 	
 	jQuery(window).load('body', function(){
 		//tokyo_tm_my_load();

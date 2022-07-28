@@ -481,7 +481,8 @@ h6 { font-size: 16px; }
 	right: 0px;
 	background-repeat: no-repeat;
 	background-position:center;
-	background-size: cover;
+	background-size: auto 11em;
+	background-color: #eee;
 	animation: morph 8s ease-in-out infinite 1s;
 	background-blend-mode: multiply;
 	-webkit-box-shadow: inset 0px 0px 0px 9px rgba(255,255,255,.3);

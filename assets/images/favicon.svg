@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100">
+    <style type="text/css">
+        rect: {fill:none;}
+
+        @media (prefers-color-scheme: dark) {
+            rect {fill:#FAFAFA;}
+        }
+
+    </style>
+    <rect  width="100" height="100" rx="5" ry="5" />
+
+    <svg viewBox="0 0 4000 6000">
+        <style type="text/css">
+            .str0 {stroke:black;stroke-width:100}
+            .str1 {stroke:black;stroke-width:80;stroke-linecap:round;stroke-linejoin:round}
+            .str2 {stroke:black;stroke-width:80;stroke-linecap:round;stroke-linejoin:round}
+            .str3 {stroke:black;stroke-width:60;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:300.000000 300.000000}
+            .fil1 {fill:none;fill-rule:nonzero}
+            .fil2 {fill:black}
+            .fil3 {fill:black;fill-rule:nonzero}
+            .fil0 {fill:#364F44;}
+        </style>
+        <g id="Layer_x0020_1">
+            <polygon class="fil0" points="2007,5962 3978,5962 2047,59 2007,59 " />
+            <polyline class="fil1 str0" points="2007,51 2007,5940 3978,5940 " />
+            <path class="fil1 str1" d="M37 3983c0,1089 882,1971 1971,1971 1088,0 1970,-882 1970,-1971" />
+            <polygon class="fil2" points="3982,5878 3951,5878 3978,5963 3981,5963 " />
+            <path class="fil1 str2" d="M3978 2012c0,-1088 -882,-1971 -1970,-1971 -1089,0 -1971,883 -1971,1971" />
+            <line class="fil1 str1" x1="36" y1="2013" x2="3978" y2="3984" />
+            <line class="fil1 str3" x1="14" y1="5915" x2="1995" y2="42" />
+            <g>
+                <path class="fil3" d="M249 4013c-15,0 -27,-13 -27,-30 0,-16 12,-30 27,-30l0 60zm269 -59l0 60 -269 -1 0 -60 269 1zm0 0c15,0 27,13 27,30 0,16 -12,30 -27,30l0 -60zm269 60c-15,0 -27,-14 -27,-30 0,-17 12,-30 27,-30l0 60zm268 -60l0 60 -268 0 0 -60 268 0zm0 0c15,0 27,13 27,30 0,16 -12,30 -27,30l0 -60zm269 60c-15,0 -27,-14 -27,-30 0,-17 12,-30 27,-30l0 60zm269 -60l0 60 -269 0 0 -60 269 0zm0 0c15,0 27,13 27,30 0,16 -12,30 -27,30l0 -60zm269 60c-15,0 -27,-14 -27,-30 0,-17 12,-30 27,-30l0 60zm269 -60l0 60 -269 0 0 -60 269 0zm0 0c15,0 27,13 27,30 0,16 -12,30 -27,30l0 -60zm269 60c-15,0 -27,-14 -27,-30 0,-17 12,-30 27,-30l0 60zm268 -60l0 60 -268 0 0 -60 268 0zm0 0c15,0 27,13 27,30 0,16 -12,30 -27,30l0 -60zm269 60c-15,0 -27,-14 -27,-30 0,-17 12,-30 27,-30l0 60zm269 -60l0 60 -269 0 0 -60 269 0zm0 0c15,0 27,13 27,30 0,16 -12,30 -27,30l0 -60zm269 60c-15,0 -27,-13 -27,-30 0,-17 12,-30 27,-30l0 60zm269 -60l0 60 -269 0 0 -60 269 0zm0 0c15,0 27,13 27,30 0,17 -12,30 -27,30l0 -60z" />
+            </g>
+        </g>
+    </svg>
+</svg>
