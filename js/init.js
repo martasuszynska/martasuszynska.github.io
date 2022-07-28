@@ -9,7 +9,6 @@ jQuery(document).ready(function(){
 	"use strict";
 	
 	// here all ready functions
-	
 	tokyo_tm_modalbox();
 	tokyo_tm_page_transition();
 	tokyo_tm_trigger_menu();
@@ -26,10 +25,6 @@ jQuery(document).ready(function(){
 	tokyo_tm_data_images();
 	tokyo_tm_contact_form();
 	tokyo_tm_owl_carousel();
-	
-	jQuery(window).load('body', function(){
-		//tokyo_tm_my_load();
-	});
 	
 });
 
