@@ -65,22 +65,31 @@ function tokyo_tm_page_transition(){
 			hashtag();
 			return false;
 		}
-		var sectionID 	= jQuery(href);
+		var sectionID = href.replaceAll('/','');
+		var sectionElement 	= jQuery(sectionID);
 		var parent	 	= element.closest('li');
-			if(!parent.hasClass('active')) {
-				allLi.removeClass('active');
-				wrapper.find(section).removeClass('animated '+enter);
-				if(wrapper.hasClass('opened')) {
-					wrapper.find(section).addClass('animated '+exit);
-				}
-				parent.addClass('active');
-				wrapper.addClass('opened');
-				wrapper.find(sectionID).removeClass('animated '+exit).addClass('animated '+enter);
-				jQuery(section).addClass('hidden');
-				jQuery(sectionID).removeClass('hidden').addClass('active');
+		if(!parent.hasClass('active')) {
+			tokyo_tm_change_url(sectionID, href);
+			allLi.removeClass('active');
+			wrapper.find(section).removeClass('animated '+enter);
+			if(wrapper.hasClass('opened')) {
+				wrapper.find(section).addClass('animated '+exit);
 			}
+			parent.addClass('active');
+			wrapper.addClass('opened');
+			wrapper.find(sectionElement).removeClass('animated '+exit).addClass('animated '+enter);
+			jQuery(section).addClass('hidden');
+			jQuery(sectionElement).removeClass('hidden').addClass('active');
+		}
 		return false;
 	});
+}
+
+function  tokyo_tm_change_url(sectionId,href)
+{
+	if(href == '/#/home')
+		href = '/';
+	window.history.pushState(sectionId,'', href);
 }
 
 // -----------------------------------------------------
