@@ -90,6 +90,7 @@ function  tokyo_tm_change_url(sectionId,href)
 	if(href == '/#/home')
 		href = '/';
 	window.history.pushState(sectionId,'', href);
+	if (window.sa_pageview) window.sa_pageview(window.location.pathname);
 }
 
 // -----------------------------------------------------
